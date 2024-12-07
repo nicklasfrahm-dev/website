@@ -7,7 +7,6 @@
 
 <Navbar class="shadow dark:bg-gray-900">
 	<NavBrand href="/">
-		<img src="/favicon.png" class="me-3 h-6 sm:h-9 rounded" alt="nicklasfrahm.dev logo" />
 		<span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">nicklasfrahm.dev</span>
 	</NavBrand>
 	<NavHamburger />
