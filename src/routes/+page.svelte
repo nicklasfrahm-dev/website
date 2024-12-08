@@ -92,7 +92,7 @@
 		</div>
 	</section>
 	<section>
-		<h3 class="py-2 text-2xl font-semibold dark:text-white">Recommended reading</h3>
+		<h3 class="py-2 text-2xl font-semibold dark:text-white">Recommended reads</h3>
 		<h4 class="mb-4 text-lg dark:text-white">
 			I can't take credit for these, but they've helped me become a better engineer.
 		</h4>
