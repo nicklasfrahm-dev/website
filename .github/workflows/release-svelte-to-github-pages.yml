@@ -11,41 +11,41 @@ jobs:
     name: Lint
     runs-on: ubuntu-latest
     steps:
-      - name: 📋 Checkout
+      - name: Checkout 📋
         uses: actions/checkout@v4
 
-      - name: 🛠️ Install Node
+      - name: Install Node 🛠️
         uses: actions/setup-node@v4
         with:
           node-version: lts/*
           cache: npm
 
-      - name: 📦 Install dependencies
+      - name: Install dependencies 📦
         run: npm ci
 
-      - name: 🔍 Lint
+      - name: Lint 🔍
         run: npm run lint
 
   build:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - name: 📋 Checkout
+      - name: Checkout 📋
         uses: actions/checkout@v4
 
-      - name: 🛠️ Install Node
+      - name: Install Node 🛠️
         uses: actions/setup-node@v4
         with:
           node-version: lts/*
           cache: npm
 
-      - name: 📦 Install dependencies
+      - name: Install dependencies 📦
         run: npm ci
 
-      - name: 🔨 Build hammer
+      - name: Build 🔨
         run: npm run build
 
-      - name: 📦 Upload artifact
+      - name: Upload artifact 📦
         uses: actions/upload-pages-artifact@v3
         with:
           path: 'build/'
@@ -64,6 +64,6 @@ jobs:
       name: prd
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: 🚀 Deploy
+      - name: Deploy 🚀
         id: deployment
         uses: actions/deploy-pages@v4
