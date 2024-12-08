@@ -23,7 +23,7 @@
 		{$page.status}
 		{$page.error?.message}
 	</h1>
-	<div class="mx-auto flex aspect-square h-1/4 w-1/4 justify-center">
+	<div class="mx-auto flex aspect-square h-64 w-64 justify-center">
 		<img src="/404.png" alt="A surprised mushroom with legs and arms" class="object-contain" />
 	</div>
 	{#if exclamation}
