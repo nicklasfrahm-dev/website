@@ -16,7 +16,7 @@
 				<h1 class="self-center whitespace-nowrap text-4xl font-bold dark:text-white">
 					{name}
 				</h1>
-				<h2 class="self-center whitespace-nowrap text-xl font-light dark:text-white">
+				<h2 class="self-center whitespace-nowrap text-2xl font-light dark:text-white">
 					{title}
 				</h2>
 			</div>
@@ -26,7 +26,7 @@
 				</p>
 			</div>
 		</div>
-		<div class="mx-4 flex min-h-64 min-w-64 justify-center">
+		<div class="flex min-h-64 min-w-64 justify-center">
 			<img
 				src="https://github.com/nicklasfrahm.png"
 				alt="Nicklas Frahm"
