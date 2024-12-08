@@ -16,7 +16,7 @@
 	];
 </script>
 
-<h3 class="mb-2 text-2xl font-semibold dark:text-white">Recommended reads</h3>
+<h3 class="mb-2 text-2xl font-semibold text-orange-700 dark:text-orange-500">Recommended reads</h3>
 <h4 class="mb-4 text-lg dark:text-white">
 	I can't take credit for these, but they've helped me become a better engineer.
 </h4>
@@ -28,10 +28,10 @@
 				{href}
 				target="_blank"
 				rel="noopener noreferrer"
-				class="block rounded-xl p-4 text-left text-lg font-normal text-orange-700 hover:bg-orange-300 dark:text-orange-500 dark:hover:bg-gray-900"
+				class="block rounded-xl p-4 text-left text-lg font-normal text-black hover:bg-orange-300 dark:text-white  dark:hover:bg-gray-900"
 			>
-				<span>{title}</span>
-				<p class="text-black dark:text-white">
+				<span class="font-semibold text-orange-700 dark:text-orange-500">{title}</span>
+				<p>
 					{description}
 				</p>
 			</Button>

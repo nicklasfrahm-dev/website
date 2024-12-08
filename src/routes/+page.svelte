@@ -16,7 +16,9 @@
 				<h1 class="self-center whitespace-nowrap text-4xl font-bold dark:text-white">
 					{name}
 				</h1>
-				<h2 class="self-center whitespace-nowrap text-2xl font-light dark:text-white">
+				<h2
+					class="self-center whitespace-nowrap text-2xl font-semibold text-orange-700 dark:text-orange-500"
+				>
 					{title}
 				</h2>
 			</div>

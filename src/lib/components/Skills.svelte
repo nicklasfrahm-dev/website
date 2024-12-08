@@ -19,7 +19,7 @@
 	);
 </script>
 
-<h3 class="mb-4 text-2xl font-semibold dark:text-white">Skills</h3>
+<h3 class="mb-4 text-2xl font-semibold text-orange-700 dark:text-orange-500">Skills</h3>
 <p class="text-lg dark:text-white">
 	{hashtags}
 </p>
