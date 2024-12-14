@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { Heading, Img, P } from 'flowbite-svelte';
 	import RecommendReads from '$lib/components/RecommendReads.svelte';
 	import SocialLinks from '$lib/components/SocialLinks.svelte';
 	import Skills from '$lib/components/Skills.svelte';
@@ -13,26 +14,29 @@
 	<section class="flex flex-col gap-8 md:flex-row">
 		<div class="flex flex-col gap-4">
 			<div>
-				<h1 class="self-center whitespace-nowrap text-4xl font-bold dark:text-white">
+				<Heading tag="h1" customSize="text-4xl font-extrabold">
 					{name}
-				</h1>
-				<h2
-					class="self-center whitespace-nowrap text-2xl font-semibold text-orange-700 dark:text-orange-500"
+				</Heading>
+				<Heading
+					tag="h2"
+					customSize="text-2xl font-bold"
+					color="text-orange-700 dark:text-orange-500"
 				>
 					{title}
-				</h2>
+				</Heading>
 			</div>
 			<div>
-				<p class="text-lg dark:text-white">
+				<P size="xl">
 					{description}
-				</p>
+				</P>
 			</div>
 		</div>
-		<div class="flex min-h-64 min-w-64 justify-center">
-			<img
+		<div class="flex min-h-64 min-w-64 items-center justify-center">
+			<Img
 				src="https://github.com/nicklasfrahm.png"
-				alt="Nicklas Frahm"
+				alt="Nicklas Frahm in Baux with the blurred provence in the background"
 				class="h-64 w-64 rounded-full object-cover"
+				loading="lazy"
 			/>
 		</div>
 		<div class="flex flex-col gap-4">

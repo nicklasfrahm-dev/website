@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Button } from 'flowbite-svelte';
+	import { Button, Heading, P } from 'flowbite-svelte';
 
 	const recommendations = [
 		{
@@ -16,10 +16,17 @@
 	];
 </script>
 
-<h3 class="mb-2 text-2xl font-semibold text-orange-700 dark:text-orange-500">Recommended reads</h3>
-<h4 class="mb-4 text-lg dark:text-white">
+<Heading
+	tag="h3"
+	color="text-orange-700 dark:text-orange-500"
+	customSize="text-2xl font-semibold"
+	class="mb-4"
+>
+	Recommended reads
+</Heading>
+<P size="xl" class="mb-4 ">
 	I can't take credit for these, but they've helped me become a better engineer.
-</h4>
+</P>
 <ul class="flex flex-shrink flex-col">
 	{#each recommendations as { title, href, description }}
 		<li class="mb-2 inline-block max-w-lg">
@@ -30,10 +37,12 @@
 				rel="noopener noreferrer"
 				class="block rounded-xl p-4 text-left text-lg font-normal text-black hover:bg-orange-300 dark:text-white  dark:hover:bg-gray-900"
 			>
-				<span class="font-semibold text-orange-700 dark:text-orange-500">{title}</span>
-				<p>
+				<Heading tag="h4" color="text-orange-700 dark:text-orange-500" customSize="font-semibold">
+					{title}
+				</Heading>
+				<P>
 					{description}
-				</p>
+				</P>
 			</Button>
 		</li>
 	{/each}

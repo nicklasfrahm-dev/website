@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { Heading, P } from 'flowbite-svelte';
 	const skills = [
 		'Kubernetes',
 		'Golang',
@@ -19,7 +20,13 @@
 	);
 </script>
 
-<h3 class="mb-4 text-2xl font-semibold text-orange-700 dark:text-orange-500">Skills</h3>
-<p class="text-lg dark:text-white">
+<Heading
+	color="text-orange-700 dark:text-orange-500"
+	customSize="text-2xl font-semibold"
+	class="mb-4"
+>
+	Skills
+</Heading>
+<P size="xl">
 	{hashtags}
-</p>
+</P>
