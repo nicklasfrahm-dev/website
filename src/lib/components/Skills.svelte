@@ -20,10 +20,13 @@
 	);
 </script>
 
-<!-- TODO: Continue here  -->
-<Heading color="text-orange-700 dark:text-orange-500" class="mb-4 text-2xl font-semibold "
-	>Skills</Heading
+<Heading
+	color="text-orange-700 dark:text-orange-500"
+	customSize="text-2xl font-semibold"
+	class="mb-4"
 >
-<P class="text-lg dark:text-white">
+	Skills
+</Heading>
+<P size="xl">
 	{hashtags}
 </P>

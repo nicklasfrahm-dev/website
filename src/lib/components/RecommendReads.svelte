@@ -20,9 +20,11 @@
 	tag="h3"
 	color="text-orange-700 dark:text-orange-500"
 	customSize="text-2xl font-semibold"
-	class="mb-2">Recommended reads</Heading
+	class="mb-4"
 >
-<P class="mb-4 text-lg dark:text-white">
+	Recommended reads
+</Heading>
+<P size="xl" class="mb-4 ">
 	I can't take credit for these, but they've helped me become a better engineer.
 </P>
 <ul class="flex flex-shrink flex-col">
@@ -35,9 +37,9 @@
 				rel="noopener noreferrer"
 				class="block rounded-xl p-4 text-left text-lg font-normal text-black hover:bg-orange-300 dark:text-white  dark:hover:bg-gray-900"
 			>
-				<Heading tag="h4" color="text-orange-700 dark:text-orange-500" customSize="font-semibold"
-					>{title}</Heading
-				>
+				<Heading tag="h4" color="text-orange-700 dark:text-orange-500" customSize="font-semibold">
+					{title}
+				</Heading>
 				<P>
 					{description}
 				</P>
