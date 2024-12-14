@@ -32,7 +32,12 @@
 		</Heading>
 	</div>
 	<div class="mx-auto flex aspect-square h-72 w-72 justify-center">
-		<Img src="/404.png" alt="A surprised mushroom with legs and arms" class="object-contain" />
+		<Img
+			src="/404.png"
+			alt="A surprised mushroom with legs and arms"
+			class="object-contain"
+			loading="lazy"
+		/>
 	</div>
 	{#if exclamation}
 		<div class="flex justify-center">
