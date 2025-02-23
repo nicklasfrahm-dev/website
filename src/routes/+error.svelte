@@ -25,7 +25,7 @@
 			tag="h1"
 			color="text-orange-700 dark:text-orange-500"
 			customSize="text-4xl font-extrabold"
-			class="w-auto whitespace-nowrap text-center"
+			class="w-auto text-center whitespace-nowrap"
 		>
 			{$page.status}
 			{$page.error?.message}
