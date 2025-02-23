@@ -13,10 +13,10 @@
 		'GitOps',
 		'Node',
 		'React',
-		'Svelte'
+		'Svelte',
 	];
 	const hashtags = $derived.by(() =>
-		skills.map((skill) => `#${skill.toLocaleLowerCase()}`).join(' ')
+		skills.map((skill) => `#${skill.toLocaleLowerCase()}`).join(' '),
 	);
 </script>
 

@@ -8,7 +8,7 @@
 <Navbar class="shadow dark:bg-gray-900">
 	<NavBrand href="/">
 		<span
-			class="self-center whitespace-nowrap text-xl font-semibold text-orange-700 dark:text-orange-500"
+			class="self-center text-xl font-semibold whitespace-nowrap text-orange-700 dark:text-orange-500"
 			>nicklasfrahm.dev</span
 		>
 	</NavBrand>

@@ -6,13 +6,13 @@
 		{
 			name: 'GitHub',
 			href: 'https://github.com/nicklasfrahm',
-			Icon: GithubSolid
+			Icon: GithubSolid,
 		},
 		{
 			name: 'LinkedIn',
 			href: 'https://www.linkedin.com/in/nicklasfrahm',
-			Icon: LinkedinSolid
-		}
+			Icon: LinkedinSolid,
+		},
 	];
 </script>
 
