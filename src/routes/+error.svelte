@@ -10,7 +10,7 @@
 		'Oh dear',
 		'Whoops',
 		'Oh my',
-		'My oh my'
+		'My oh my',
 	];
 	let exclamation = $state('');
 

@@ -5,14 +5,14 @@
 		{
 			title: 'Twelve-Factor App',
 			href: 'https://12factor.net/',
-			description: 'A methodology for building modern, scalable, maintainable software.'
+			description: 'A methodology for building modern, scalable, maintainable software.',
 		},
 		{
 			title: 'Conventional Commits',
 			href: 'https://www.conventionalcommits.org/',
 			description:
-				'A specification for adding human and machine readable meaning to commit messages.'
-		}
+				'A specification for adding human and machine readable meaning to commit messages.',
+		},
 	];
 </script>
 
